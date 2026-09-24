@@ -56,6 +56,66 @@
   .form-control:focus{border-color:var(--teal);box-shadow:0 0 0 .2rem rgba(46,196,182,.15);}
   .social-btn{width:42px;height:42px;border-radius:8px;border:1.5px solid var(--card-border);display:flex;align-items:center;justify-content:center;color:var(--navy);}
   .social-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy);}
+
+  html,
+  body{
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  img,
+  svg,
+  video,
+  iframe{
+    max-width:100%;
+  }
+
+  .avatar-circle{
+    max-width:100%;
+  }
+
+  .code-card{
+    max-width:100%;
+  }
+
+  .code-card pre{
+    max-width:100%;
+    white-space:pre-wrap;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+
+  @media (max-width:575.98px){
+    .container{
+      max-width:100%;
+    }
+
+    .code-card pre{
+      font-size:.68rem;
+      line-height:1.55;
+      padding:1rem;
+    }
+
+    .avatar-circle{
+      width:180px;
+      height:180px;
+    }
+
+    .status-pill{
+      max-width:100%;
+      white-space:normal;
+    }
+
+    .accordion-button{
+      white-space:normal;
+    }
+
+    .project-card,
+    .tool-card{
+      max-width:100%;
+      overflow:hidden;
+    }
+  }
 </style>
 </head>
 <body>
@@ -81,8 +141,8 @@
   <div class="container">
     <div class="row align-items-center g-5">
       <div class="col-lg-7">
-        <p class="eyebrow mb-2">HELLO, I'M MARIUS ALABA</p>
-        <h1 class="display-5 fw-bold mb-3">Junior Front-End Web Developer</h1>
+        <p class="eyebrow mb-2">JUNIOR FRONT-END WEB DEVELOPER</p>
+        <h1 class="display-5 fw-bold mb-3">Marius Alaba</h1>
         <p class="mb-4" style="color:var(--muted);max-width:38rem;">I recently finished learning HTML, CSS, Bootstrap and Git, and I'm now building small real projects while I dig into JavaScript and the basics of backend development.</p>
         <div class="d-flex flex-wrap gap-2 mb-4">
           <span class="badge text-bg-light border px-3 py-2">HTML5</span>
